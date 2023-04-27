@@ -1,4 +1,3 @@
-ARG VARIANT="11"
-FROM mcr.microsoft.com/devcontainers/java/sdk:${VARIANT}
+FROM mcr.microsoft.com/devcontainers/java
 
-ENV PATH $PATH:/home/vscode/.java:/home/vscode/.java/tools
+ENV PATH $PATH:/home/vscode/.java:/home/vscode/java/tools
