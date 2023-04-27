@@ -48,7 +48,8 @@
         "extensions": [
           // VS Code 익스텐션
           "ms-vscode.vscode-node-azure-pack",
-          "ms-azuretools.vscode-bicep"
+          "ms-azuretools.vscode-bicep",
+          "vscjava.vscode-java-pack"
         ],
     
         "settings": {
